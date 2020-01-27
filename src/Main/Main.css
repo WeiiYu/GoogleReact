@@ -1,0 +1,194 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+
+.main:focus-within .twobutton{
+    display: none;
+}
+
+.main:focus-within .search-extension {
+    display: block;
+}
+
+.img{
+    padding-top: 94px;
+}
+
+.search{
+    width: 582px;
+    border-radius: 24px;
+    border-color: lightgrey;
+    flex-wrap: wrap;
+    margin-top: 22px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    position: relative;
+}
+
+.search:hover {
+    border-color: rgba(223,225,229,0);
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+.search-first-part {
+    display: flex;
+    align-items: center;
+    margin: 4px 0px;
+}
+
+.span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    color: #9AA0A6;
+    padding-left: 14px;
+}
+
+.searchbar {
+    width: 487px;
+    height: 34px;
+    border: none;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-rendering: auto;
+    padding-left: 23px;
+    outline: none;  
+}
+
+.microphone {
+    height: 24px;
+    background: url(http://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) 0 0 no-repeat;
+    width: 24px;
+    background-size: 24px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.microphone:hover .mircophone-extension {
+    display: block;
+}
+
+.mircophone-extension {
+    position: absolute;
+    left: -4px;
+    top: 35px;
+    display: none;
+}
+
+.mircophone-extension img {
+    height: 30px;
+    width: 110px;
+}
+
+.search-extension {
+    display: none;
+}
+.search-extension-line {
+    border-top: 1px solid #e8eaed;
+    margin: 0 20px 0 14px;
+}
+
+.search-extension-content-try {
+    list-style-type: none;
+    color: #80868B;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.75px;
+    margin: 0 20px 0 16px;
+    padding: 8px 0 8px 0;
+    line-height: 16px;
+}
+
+.search-extension-content-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 3px;
+}
+
+.search-extension-content-list-content {
+    font-size: 16px;
+    color: #212121;
+    word-break: break-word;
+    margin-left: 14px;
+    margin: 5px 10px;
+}
+
+.search-extension-content-list:hover {
+    background: #f2f2f2;
+}
+
+.search-extension-report {
+    color: #70757a;
+    float: right;
+    font-style: italic;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font-size: 8pt;
+    margin-right: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+.search-extension-report:hover {
+    text-decoration: underline;
+}
+
+.twobutton{
+    padding-top: 30px;
+    width: 571px;
+    text-align: center;
+    position: relative;
+    right: 5px;
+}
+
+.twobutton-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding:0 16px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-size: 14px;
+    height: 36px;
+    text-align: center;
+    color:#5F6368 ;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 0px 5px;
+    color: #5f6368;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    outline: none;
+    color: #222;
+    font-size: 14px;
+}
+
+.middle-extension {
+    width: 200px;
+    height: 200px;
+    border: solid;
+}

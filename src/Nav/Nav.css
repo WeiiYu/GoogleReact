@@ -1,0 +1,96 @@
+html {
+    color: -internal-root-color;
+}
+
+a {
+    font-size: 13px;
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    font-family: arial,sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.nav ul {
+    list-style: none;  
+}
+
+.nav ul li{
+    display: inline-block;
+}
+
+.nav-left {
+    margin-top: 14px; 
+    padding-left: 0px;  
+}
+
+.nav-left li a{
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+    display: inline-block;
+}
+
+.left-first-li {
+    margin-left: 10px;
+    margin-right: 4px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px; 
+    padding: 0 30px;
+}
+
+.nav-right li {
+    padding-left: 15px;
+}
+
+.nav-right a {
+    color: black;   
+}
+
+.nav-left a:hover {
+    text-decoration: underline;
+}
+
+.nav-right a:hover {
+    text-decoration: underline;
+}
+
+.icon{
+    position: relative;
+    background-image: url('http://ssl.gstatic.com/gb/images/i2_2ec824b0.png');
+    background-position: -132px -38px;
+    background-size: 528px 68px;  
+    height: 30px;
+    width: 30px;
+    display:block;
+    opacity: .55;
+}
+
+.nav-right .sign-in{
+    background-color: #4285f4;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    font-weight: bold;
+    color: #fff;
+    padding: 7px 12px;
+    cursor: default;
+    text-decoration: none !important;
+}
+
+.icon:hover{
+    opacity: .85;
+}
+
+

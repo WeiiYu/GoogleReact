@@ -1,0 +1,104 @@
+.icon-layout {
+    width: 330px;
+    height: 470px;
+    border: 1px solid rgba(0,0,0,0.2);
+    background: #fff;
+    border-radius: 8px;
+    position: absolute;
+    right: 30px;
+    top: 60px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.icon-bar {
+    height: 450px;
+    width: 325px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    min-height: 50px;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto; 
+}
+
+.icon-bar::-webkit-scrollbar {
+    width: 8px;
+    height: 1px;
+}
+
+.icon-bar::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #dadce0; 
+}
+
+.icon-ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+     flex-wrap:wrap;
+}
+
+.icon-li {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 84px;
+    height: 84px;  
+}
+
+.icon-li:hover {
+    background-color: #f6fafe;
+    cursor:pointer;
+}
+
+.icon-line-seprate {
+    width: 325px;
+    border-bottom: 1px solid #e8eaed;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.icon-li-span-img {
+    width: 64px;
+    display: block;
+    height: 64px;
+    background-image: url(https://ssl.gstatic.com/gb/images/p1_6234ef59.png);
+    background-size: 64px 2686px;
+    background-position: 0 -345px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px auto;
+
+}
+
+.icon-li-span-font {
+    color: #404040;
+    display: block;
+    font-family: 'Google Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    letter-spacing: .09px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.icon-button-inside {
+    text-align: center;
+    margin-top: 15px;
+}
+.icon-button-inside:hover {
+    cursor:pointer;
+}
+
+.icon-button-inside-a {
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #1a73e8;
+    display: inline-block;
+    font: 500 14px/16px 'Google Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    padding: 10px 24px;
+}
+
